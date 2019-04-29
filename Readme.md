@@ -22,7 +22,8 @@ A tutorial on how to send midi signals from a python script to a midi track in a
 ## What you'll have to do:
 1. Install python and the python rt-midi package ![like this](https://i.imgur.com/pV6qP5U.png)
 2. Install the loopMidi software, once you launch it you should see something like this: ![like this](https://i.imgur.com/ytzI7MQ.png)
-3. Now press the little plus button in the bottom-left corner: ![like this](https://i.imgur.com/mX2Ug8S.png) You'll see that it'll add an item to list. Voila, we created a new port. 
+3. Now press the little plus button in the bottom-left corner: ![like this](https://i.imgur.com/mX2Ug8S.png) 
+    You'll see that it'll add an item to list. Voila, we created a new port. 
 4. Now let's write the python script that'll send some notes to the port:
 
 ```
@@ -55,10 +56,10 @@ del midiout
 Here we're simply sending a middle C note as MIDI to the port. Save this in a `.py` file, we'll need to run it later.
 
 5. Now let's set up Ableton:
-..1. Got preferences -> MIDI link where you should see the loopMidi port as an input and output port. Set the loopMidi port's track and sync to "On" [like this](https://i.imgur.com/Z0L9YNh.png)
-..2. ![Create a new midi track in your project](https://i.imgur.com/njphzc5.png)
-..3. Set the input of the track to be the "loopMidi Port" and set the track to "In"
-..4. Also don't forget to load the track with a synth. An ableton stock sound should also do the trick.
+  1. Go to Preferences -> MIDI link where you should see the loopMidi port as an input and output port. Set the loopMidi port's track and sync to "On" [like this](https://i.imgur.com/Z0L9YNh.png)
+  2. ![Create a new midi track in your project](https://i.imgur.com/njphzc5.png)
+  3. Set the input of the track to be the "loopMidi Port" and set the track to "In"
+  4. Also don't forget to load the track with a synth. An ableton stock sound should also do the trick.
 
 6. Run the script `python "scriptname".py`, and you should be able to hear ableton play back a C note at you.
 
