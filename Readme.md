@@ -57,8 +57,7 @@ Here we're simply sending a middle C note as MIDI to the port. Save this in a `.
 
 5. Now let's set up Ableton:
     * Go to Preferences -> MIDI link where you should see the loopMidi port as an input and output port. Set the loopMidi port's track and sync to "On" ![like this](https://i.imgur.com/Z0L9YNh.png)
-    * Create a new Midi track in your project
-    ![Create a new midi track in your project](https://i.imgur.com/njphzc5.png)
+    * Create a new Midi track in your project                                                                                           ![Create a new midi track in your project](https://i.imgur.com/njphzc5.png)
     * Set the input of the track to be the "loopMidi Port" and set the track to "In"
     * Also don't forget to load the track with a synth. An ableton stock sound should also do the trick.
 
