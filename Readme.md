@@ -56,11 +56,11 @@ del midiout
 Here we're simply sending a middle C note as MIDI to the port. Save this in a `.py` file, we'll need to run it later.
 
 5. Now let's set up Ableton:
-  1. Go to Preferences -> MIDI link where you should see the loopMidi port as an input and output port. Set the loopMidi port's track and sync to "On" [like this](https://i.imgur.com/Z0L9YNh.png)
-  2. ![Create a new midi track in your project](https://i.imgur.com/njphzc5.png)
-  3. Set the input of the track to be the "loopMidi Port" and set the track to "In"
-  4. Also don't forget to load the track with a synth. An ableton stock sound should also do the trick.
+    * Go to Preferences -> MIDI link where you should see the loopMidi port as an input and output port. Set the loopMidi port's track and sync to "On" [like this](https://i.imgur.com/Z0L9YNh.png)
+    * ![Create a new midi track in your project](https://i.imgur.com/njphzc5.png)
+    * Set the input of the track to be the "loopMidi Port" and set the track to "In"
+    * Also don't forget to load the track with a synth. An ableton stock sound should also do the trick.
 
-6. Run the script `python "scriptname".py`, and you should be able to hear ableton play back a C note at you.
+6. Run the script `python "scriptname".py` in your command prompt, and you should be able to hear ableton play back a C note at you.
 
 I hope this helped, if anything is unclear or you have suggestions let me know.
