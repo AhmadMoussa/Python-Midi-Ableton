@@ -20,6 +20,5 @@ A tutorial on how to send midi signals from a python script to a midi track in a
 4. We need to setup ableton to listen to the port
 
 ## What you'll have to do:
-1. Install python and the python rt-midi package
-![like this](https://imgur.com/a/n4bMiel)
+1. Install python and the python rt-midi package ![like this](https://imgur.com/a/n4bMiel)
 * Install the loopMidi software, once you launch it
