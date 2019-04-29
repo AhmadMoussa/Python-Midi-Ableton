@@ -10,8 +10,8 @@ A tutorial on how to send midi signals from a python script to a midi track in a
 * Windows?
 
 ## Why is this relevant:
-* Because I couldn't find any resources on how to send Midi Notes from a Python script to Ableton
-* You want to send Midi Signal from Python to Ableton Live on a Windows pc
+* Because I couldn't find any resources on how to send Midi Notes from a Python script to Ableton for windows
+* You want to send Midi Signals from Python to Ableton Live on a Windows pc
 
 ## What are we actually going to do:
 1. We can't communicate directly between ableton live and python
